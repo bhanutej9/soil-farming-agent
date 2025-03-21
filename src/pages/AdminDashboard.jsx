@@ -51,7 +51,7 @@ const AdminDashboard = () => {
         <textarea
           value={soilDetails}
           onChange={(e) => setSoilDetails(e.target.value)}
-          placeholder="Enter Soil Details"
+          placeholder="Enter Soil or Crop Details"
           required
           className="admin-textarea"
         />
