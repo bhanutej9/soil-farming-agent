@@ -23,7 +23,7 @@ const HomePage = () => {
           <button className="btn-admin" onClick={() => navigate('/admin-login')}>Admin</button>
         </div>
 
-        <h1 className="home-header">Welcome to Soil Farming Agent</h1>
+        <h1 className="home-header">Soil and Crop Management System</h1>
 
         <p className="home-paragraph">
           Soil plays a vital role in agriculture, serving as the foundation for healthy crops. 
