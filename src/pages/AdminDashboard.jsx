@@ -80,3 +80,70 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+
+/*✅ Purpose of This Page
+
+This is an Admin Dashboard that allows the admin to:
+
+Post soil and distributor details to Firestore (Firebase)
+
+Log out securely with confirmation
+
+🔍 Key Functionalities Implemented
+
+1. Form Handling with React State
+
+Used useState hooks to manage:
+
+soilDetails – holds the soil/crop information
+
+distributorDetails – holds distributor information
+
+message – shows success or error messages after submission
+
+2. Submitting Data to Firestore
+
+On form submission (handleSubmit):
+
+Adds a new document to the soils collection in Firestore using addDoc
+
+Each document contains:
+
+soilDetails
+
+distributorDetails
+
+timestamp (current time)
+
+Clears the form and displays a success message
+
+Catches and handles errors
+
+3. Logout Functionality
+handleLogout asks for confirmation (window.confirm)
+
+If confirmed, navigates back to the homepage (navigate('/'))
+
+4. User Interface (UI)
+Styled using CSS (App.css)
+
+Includes:
+
+A Logout button
+
+A form with two textareas for input
+
+A submit button to post the details
+
+A message section that gives feedback after posting
+
+💡 Technologies Used
+React (useState, useNavigate)
+
+Firebase Firestore (addDoc, collection)
+
+Custom CSS (App.css)
+
+React Router (useNavigate for redirecting)
+
+*/

@@ -69,3 +69,7 @@ const Login = ({ onLogin }) => {
 };
 
 export default Login;
+
+//In Web Development, especially in React.js, 
+// a prop (short for property) is a way of passing data from a parent component to a child component.
+
